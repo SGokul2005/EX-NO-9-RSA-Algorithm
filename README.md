@@ -30,6 +30,8 @@ Step 4: Mathematical Representation
 Step 5: **Security Foundation
 The security of RSA relies on the difficulty of factoring large numbers; thus, choosing sufficiently large
 prime numbers for ( p ) and ( q ) is crucial for security.
+
+```
 # Program:
 #include <stdio.h>
 #include <string.h>
@@ -119,6 +121,7 @@ printf("%c", (char)decrypted); // Convert the decrypted ASCII value back to a ch
 printf("\n");
 return 0;
 }
+```
 # Output:
 ![image](https://github.com/user-attachments/assets/01d4b809-879a-411c-ad43-a938d02b1edb)
 
